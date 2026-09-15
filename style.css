@@ -1,0 +1,70 @@
+:root {
+  --cream: #faf7f2;
+  --sand: #eee5da;
+  --taupe: #d8c8b8;
+  --espresso: #493a33;
+  --terracotta: #c8755d;
+  --terracotta-dark: #a95b47;
+  --gold: #d6a354;
+}
+
+body {
+  background-color: var(--cream);
+  color: var(--espresso);
+}
+
+.welcome-section {
+  background: linear-gradient(135deg, var(--sand), #f7eee5) !important;
+  color: var(--espresso);
+}
+
+.welcome-section h1 {
+  color: var(--espresso);
+}
+
+.btn-primary {
+  --bs-btn-bg: var(--terracotta);
+  --bs-btn-border-color: var(--terracotta);
+  --bs-btn-hover-bg: var(--terracotta-dark);
+  --bs-btn-hover-border-color: var(--terracotta-dark);
+}
+
+.btn-outline-primary {
+  --bs-btn-color: var(--terracotta-dark);
+  --bs-btn-border-color: var(--terracotta);
+  --bs-btn-hover-bg: var(--terracotta);
+  --bs-btn-hover-border-color: var(--terracotta);
+}
+
+.rental-card {
+  border: 1px solid var(--taupe);
+  background-color: #fffdf9;
+  box-shadow: 0 0.25rem 0.75rem rgba(73, 58, 51, 0.1);
+}
+
+.site-navbar {
+  background-color: var(--espresso);
+}
+
+.site-navbar .navbar-brand,
+.site-navbar .nav-link {
+  color: var(--sand);
+}
+
+.site-navbar .nav-link:hover,
+.site-navbar .nav-link:focus {
+  color: var(--gold);
+}
+
+.site-navbar .navbar-toggler {
+  border-color: var(--taupe);
+}
+
+.site-navbar .navbar-toggler-icon {
+  filter: invert(1);
+}
+
+.site-footer {
+  background-color: var(--espresso) !important;
+  color: var(--sand) !important;
+}
